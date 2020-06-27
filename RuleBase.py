@@ -382,7 +382,7 @@ class RuleBase:
         return class_value
 
     # added by rui for negative  rules
-    def generate_negative_rules(self, train, confident_value_pass):
+    def generate_negative_rules(self, train, confident_value_pass, zone_confident_pass):
 
         class_value_arr = self.get_class_value_array(train)
         for i in range(0, len(self.ruleBase)):
@@ -400,17 +400,17 @@ class RuleBase:
                     rule_negative.calculate_confident(self.data_row_array)
                     print("Negative rule's  confident value is :"+ str(rule_negative.confident_value))
 
-                    if rule_negative.confident_value >= confident_value_pass:
+                    if rule_negative.confident_value > confident_value_pass and rule_negative.zone_confident > zone_confident_pass:
                         rule_negative.weight = rule_negative.confident_value
                         if not (self.duplicated_negative_rule(rule_negative)):
 
                             for k in range(0, len(rule_negative.antecedent)):
                                 print("antecedent L_ " + str(rule_negative.antecedent[j].label))
-                            print("class value " + str(rule_negative.get_class()))
-                            print(" weight  " + str(rule_negative.weight))
-
-                            print("positive_rule_class_value" + str(positive_rule_class_value))
-                            print("class_type" + str(class_type))
+                            print("Negative rule's class value " + str(rule_negative.get_class()))
+                            print(" Negative rule's weight, confident_vale  " + str(rule_negative.weight))
+                            print(" Negative rule's zone confident value   " + str(rule_negative.zone_confident))
+                            print("Negative rule's positive_rule_class_value" + str(positive_rule_class_value))
+                            print("Negative rule's class_type" + str(class_type))
                             self.negative_rule_base_array.append(rule_negative)
 
     def get_class_value_array(self, train):
