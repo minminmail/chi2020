@@ -50,6 +50,8 @@ class Rule:
     granularity_sub_zone = None
     # added at 2020/06/25 to check positive rule confident
     confident_value = None
+    # In this fuzzy zone, the confident is supp(xUY)/supp(x)
+    zone_confident = None
 
     def __init__(self):
 
@@ -250,7 +252,10 @@ class Rule:
             return False
 
     def calculate_confident(self, data_row_array):
-        support_rule_number = 0
+        # how many instances in the zone
+        supp_x= 0
+        # instances in the zone with the same expected class value
+        supp_xy=0
         self.confident_value = 0
         all_number_of_the_class = 0
         for i in range(0, len(data_row_array)):
@@ -259,17 +264,24 @@ class Rule:
             #  print("self.class_value  :" + str(self.class_value))
             if self.data_row_here.class_value == self.class_value:
                 all_number_of_the_class = all_number_of_the_class + 1
-                meet_antecedent = 0
-                for j in range(0, len(self.data_row_here.label_values)):
+            meet_antecedent = 0
+            for j in range(0, len(self.data_row_here.label_values)):
 
-                    if self.antecedent[j].label == self.data_row_here.label_values[j]:  # meet the rule antecedent conditions
-                        meet_antecedent = meet_antecedent + 1
-                if len(self.antecedent) == meet_antecedent:
-                    support_rule_number = support_rule_number + 1
+                if self.antecedent[j].label == self.data_row_here.label_values[j]:  # meet the rule antecedent conditions
+                    meet_antecedent = meet_antecedent + 1
+            if len(self.antecedent) == meet_antecedent:
+                supp_x = supp_x + 1
+                if self.data_row_here.class_value == self.class_value:
+                    supp_xy = supp_xy + 1
+
+
         if all_number_of_the_class != 0:
             # print("support_rule_number :"+str(support_rule_number))
             # print("all_number_of_the_class :" + str(all_number_of_the_class))
-            self.confident_value = support_rule_number / all_number_of_the_class
-            print("self.confident_value in the rule:" + str(self.confident_value))
+            self.confident_value = supp_xy / all_number_of_the_class
+            #print("self.confident_value in the rule:" + str(self.confident_value))
+        if supp_x != 0:
+            self.zone_confident = supp_xy / supp_x
+
 
 
