@@ -429,13 +429,13 @@ class RuleBase:
         class_value_arr = self.get_class_value_array(train)
         str_print = "Totally there are: " + str(len(self.ruleBase))+ " rules"
         print(str_print)
+        index_number = 1
+
         for each_rule in self.ruleBase:
 
             each_rule.calculate_confident(self.data_row_array)
-            print("each_rule.weight" + str(each_rule.weight))
-            print("each_rule.calculate_confident"+str(each_rule.confident_value))
-            print("each_rule.zone_confident" + str(each_rule.zone_confident))
-
+            print(str(index_number) + " -- each_rule.weight :" + str(each_rule.weight)+",zone_confident :" + str(each_rule.zone_confident)+",calculate_confident :"+str(each_rule.confident_value))
+            index_number = index_number + 1
 
 
 

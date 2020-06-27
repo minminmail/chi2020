@@ -1,49 +1,49 @@
 @Number of rules: 17
 
-1: Age IS L_0 AND Year IS L_0 AND Positive IS L_0: negative with Rule Weight: 0.670169749896651
-2: Age IS L_0 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 0.6379518388332193
-3: Age IS L_1 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 0.5590932455284302
-4: Age IS L_1 AND Year IS L_0 AND Positive IS L_0: negative with Rule Weight: 0.5326407737710572
-5: Age IS L_1 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 0.5042271465623154
-6: Age IS L_1 AND Year IS L_2 AND Positive IS L_1: negative with Rule Weight: 0.1345443349753693
-7: Age IS L_0 AND Year IS L_1 AND Positive IS L_1: negative with Rule Weight: 0.17922135215617066
-8: Age IS L_2 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 0.5529212326693713
-9: Age IS L_2 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 0.7053752712000096
-10: Age IS L_1 AND Year IS L_1 AND Positive IS L_1: positive with Rule Weight: 0.07916861279775848
-11: Age IS L_2 AND Year IS L_0 AND Positive IS L_0: negative with Rule Weight: 0.303772233727524
-12: Age IS L_0 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 0.39409221009330087
-13: Age IS L_0 AND Year IS L_0 AND Positive IS L_1: negative with Rule Weight: 0.4639200734307704
+1: Age IS L_0 AND Year IS L_0 AND Positive IS L_0: negative with Rule Weight: 0.6702
+2: Age IS L_0 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 0.638
+3: Age IS L_1 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 0.5591
+4: Age IS L_1 AND Year IS L_0 AND Positive IS L_0: negative with Rule Weight: 0.5326
+5: Age IS L_1 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 0.5042
+6: Age IS L_1 AND Year IS L_2 AND Positive IS L_1: negative with Rule Weight: 0.1345
+7: Age IS L_0 AND Year IS L_1 AND Positive IS L_1: negative with Rule Weight: 0.1792
+8: Age IS L_2 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 0.5529
+9: Age IS L_2 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 0.7054
+10: Age IS L_1 AND Year IS L_1 AND Positive IS L_1: positive with Rule Weight: 0.0792
+11: Age IS L_2 AND Year IS L_0 AND Positive IS L_0: negative with Rule Weight: 0.3038
+12: Age IS L_0 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 0.3941
+13: Age IS L_0 AND Year IS L_0 AND Positive IS L_1: negative with Rule Weight: 0.4639
 14: Age IS L_1 AND Year IS L_2 AND Positive IS L_2: negative with Rule Weight: 1.0
-15: Age IS L_0 AND Year IS L_2 AND Positive IS L_1: positive with Rule Weight: 0.04132178376644236
-16: Age IS L_1 AND Year IS L_0 AND Positive IS L_1: positive with Rule Weight: 0.04741299604275327
-17: Age IS L_0 AND Year IS L_0 AND Positive IS L_2: positive with Rule Weight: 0.5918367346938775
+15: Age IS L_0 AND Year IS L_2 AND Positive IS L_1: positive with Rule Weight: 0.0413
+16: Age IS L_1 AND Year IS L_0 AND Positive IS L_1: positive with Rule Weight: 0.0474
+17: Age IS L_0 AND Year IS L_0 AND Positive IS L_2: positive with Rule Weight: 0.5918
 
 
 @Number of negative rules: 17
 
-1: Age IS L_0 AND Year IS L_0 AND Positive IS L_0: positive with Rule Weight: 0.041666666666666664
-2: Age IS L_0 AND Year IS L_1 AND Positive IS L_0: positive with Rule Weight: 0.05555555555555555
-3: Age IS L_1 AND Year IS L_1 AND Positive IS L_0: positive with Rule Weight: 0.3194444444444444
-4: Age IS L_1 AND Year IS L_0 AND Positive IS L_0: positive with Rule Weight: 0.20833333333333334
-5: Age IS L_1 AND Year IS L_2 AND Positive IS L_0: positive with Rule Weight: 0.09722222222222222
-6: Age IS L_1 AND Year IS L_2 AND Positive IS L_1: positive with Rule Weight: 0.013888888888888888
+1: Age IS L_0 AND Year IS L_0 AND Positive IS L_0: positive with Rule Weight: 0.0417
+2: Age IS L_0 AND Year IS L_1 AND Positive IS L_0: positive with Rule Weight: 0.0556
+3: Age IS L_1 AND Year IS L_1 AND Positive IS L_0: positive with Rule Weight: 0.3194
+4: Age IS L_1 AND Year IS L_0 AND Positive IS L_0: positive with Rule Weight: 0.2083
+5: Age IS L_1 AND Year IS L_2 AND Positive IS L_0: positive with Rule Weight: 0.0972
+6: Age IS L_1 AND Year IS L_2 AND Positive IS L_1: positive with Rule Weight: 0.0139
 7: Age IS L_0 AND Year IS L_1 AND Positive IS L_1: positive with Rule Weight: 0.0
-8: Age IS L_2 AND Year IS L_1 AND Positive IS L_0: positive with Rule Weight: 0.027777777777777776
+8: Age IS L_2 AND Year IS L_1 AND Positive IS L_0: positive with Rule Weight: 0.0278
 9: Age IS L_2 AND Year IS L_2 AND Positive IS L_0: positive with Rule Weight: 0.0
-10: Age IS L_1 AND Year IS L_1 AND Positive IS L_1: negative with Rule Weight: 0.024630541871921183
-11: Age IS L_2 AND Year IS L_0 AND Positive IS L_0: positive with Rule Weight: 0.027777777777777776
-12: Age IS L_0 AND Year IS L_2 AND Positive IS L_0: positive with Rule Weight: 0.027777777777777776
-13: Age IS L_0 AND Year IS L_0 AND Positive IS L_1: positive with Rule Weight: 0.013888888888888888
+10: Age IS L_1 AND Year IS L_1 AND Positive IS L_1: negative with Rule Weight: 0.0246
+11: Age IS L_2 AND Year IS L_0 AND Positive IS L_0: positive with Rule Weight: 0.0278
+12: Age IS L_0 AND Year IS L_2 AND Positive IS L_0: positive with Rule Weight: 0.0278
+13: Age IS L_0 AND Year IS L_0 AND Positive IS L_1: positive with Rule Weight: 0.0139
 14: Age IS L_1 AND Year IS L_2 AND Positive IS L_2: positive with Rule Weight: 0.0
 15: Age IS L_0 AND Year IS L_2 AND Positive IS L_1: negative with Rule Weight: 0.0
-16: Age IS L_1 AND Year IS L_0 AND Positive IS L_1: negative with Rule Weight: 0.0049261083743842365
+16: Age IS L_1 AND Year IS L_0 AND Positive IS L_1: negative with Rule Weight: 0.0049
 17: Age IS L_0 AND Year IS L_0 AND Positive IS L_2: negative with Rule Weight: 0.0
 
 
 @Number of granularity rules: 10
 
 In negative zone area : 25 , has rules : 
-1: Age IS L_1 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 0.5999999999999998
+1: Age IS L_1 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 0.6
 In negative zone area : 25 , has rules : 
 2: Age IS L_1 AND Year IS L_1 AND Positive IS L_1: negative with Rule Weight: 1.0
 In negative zone area : 25 , has rules : 
@@ -69,25 +69,25 @@ In negative zone area : 25 , has rules :
 In negative zone area : 29 , has rules : 
 1: Age IS L_1 AND Year IS L_1 AND Positive IS L_1: negative with Rule Weight: 1.0
 In negative zone area : 29 , has rules : 
-2: Age IS L_2 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 0.5655146221040637
+2: Age IS L_2 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 0.5655
 In negative zone area : 29 , has rules : 
 3: Age IS L_1 AND Year IS L_1 AND Positive IS L_2: negative with Rule Weight: 1.0
 In negative zone area : 29 , has rules : 
 4: Age IS L_0 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 1.0
 In negative zone area : 29 , has rules : 
-5: Age IS L_1 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 0.43866535819430774
+5: Age IS L_1 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 0.4387
 In negative zone area : 29 , has rules : 
 6: Age IS L_2 AND Year IS L_2 AND Positive IS L_1: negative with Rule Weight: 1.0
 In negative zone area : 29 , has rules : 
-7: Age IS L_2 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 0.6405882352941176
+7: Age IS L_2 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 0.6406
 In negative zone area : 29 , has rules : 
 8: Age IS L_0 AND Year IS L_0 AND Positive IS L_0: negative with Rule Weight: 1.0
 In negative zone area : 29 , has rules : 
 9: Age IS L_0 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 1.0
 In negative zone area : 29 , has rules : 
-10: Age IS L_1 AND Year IS L_2 AND Positive IS L_1: positive with Rule Weight: 0.649484536082474
+10: Age IS L_1 AND Year IS L_2 AND Positive IS L_1: positive with Rule Weight: 0.6495
 In negative zone area : 29 , has rules : 
-11: Age IS L_1 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 0.8882921589688503
+11: Age IS L_1 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 0.8883
 In negative zone area : 29 , has rules : 
 12: Age IS L_1 AND Year IS L_0 AND Positive IS L_2: negative with Rule Weight: 1.0
 In negative zone area : 29 , has rules : 
@@ -97,69 +97,69 @@ In negative zone area : 29 , has rules :
 @Number of granularity rules: 17
 
 In negative zone area : 93 , has rules : 
-1: Age IS L_0 AND Year IS L_0 AND Positive IS L_0: negative with Rule Weight: 0.7985589452705812
+1: Age IS L_0 AND Year IS L_0 AND Positive IS L_0: negative with Rule Weight: 0.7986
 In negative zone area : 93 , has rules : 
-2: Age IS L_1 AND Year IS L_0 AND Positive IS L_0: negative with Rule Weight: 0.837697468080502
+2: Age IS L_1 AND Year IS L_0 AND Positive IS L_0: negative with Rule Weight: 0.8377
 In negative zone area : 93 , has rules : 
-3: Age IS L_1 AND Year IS L_1 AND Positive IS L_1: negative with Rule Weight: 0.5214564369310793
+3: Age IS L_1 AND Year IS L_1 AND Positive IS L_1: negative with Rule Weight: 0.5215
 In negative zone area : 93 , has rules : 
-4: Age IS L_2 AND Year IS L_0 AND Positive IS L_0: negative with Rule Weight: 0.625208526413346
+4: Age IS L_2 AND Year IS L_0 AND Positive IS L_0: negative with Rule Weight: 0.6252
 In negative zone area : 93 , has rules : 
-5: Age IS L_0 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 0.5263989883022452
+5: Age IS L_0 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 0.5264
 In negative zone area : 93 , has rules : 
 6: Age IS L_0 AND Year IS L_1 AND Positive IS L_2: positive with Rule Weight: 1.0
 In negative zone area : 93 , has rules : 
-7: Age IS L_1 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 0.5288027608176263
+7: Age IS L_1 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 0.5288
 In negative zone area : 93 , has rules : 
-8: Age IS L_2 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 0.8552706552706548
+8: Age IS L_2 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 0.8553
 In negative zone area : 93 , has rules : 
-9: Age IS L_2 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 0.6333774834437084
+9: Age IS L_2 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 0.6334
 In negative zone area : 93 , has rules : 
-10: Age IS L_1 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 0.6273401624867538
+10: Age IS L_1 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 0.6273
 In negative zone area : 93 , has rules : 
-11: Age IS L_0 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 0.3944371441086292
+11: Age IS L_0 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 0.3944
 In negative zone area : 93 , has rules : 
-12: Age IS L_0 AND Year IS L_2 AND Positive IS L_2: negative with Rule Weight: 0.49713467048710597
+12: Age IS L_0 AND Year IS L_2 AND Positive IS L_2: negative with Rule Weight: 0.4971
 In negative zone area : 93 , has rules : 
-13: Age IS L_0 AND Year IS L_0 AND Positive IS L_1: negative with Rule Weight: 0.5416666666666664
+13: Age IS L_0 AND Year IS L_0 AND Positive IS L_1: negative with Rule Weight: 0.5417
 In negative zone area : 93 , has rules : 
-14: Age IS L_0 AND Year IS L_2 AND Positive IS L_1: positive with Rule Weight: 0.286527514231499
+14: Age IS L_0 AND Year IS L_2 AND Positive IS L_1: positive with Rule Weight: 0.2865
 In negative zone area : 93 , has rules : 
-15: Age IS L_1 AND Year IS L_2 AND Positive IS L_2: positive with Rule Weight: 0.2557575757575754
+15: Age IS L_1 AND Year IS L_2 AND Positive IS L_2: positive with Rule Weight: 0.2558
 In negative zone area : 93 , has rules : 
 16: Age IS L_2 AND Year IS L_0 AND Positive IS L_2: positive with Rule Weight: 1.0
 In negative zone area : 93 , has rules : 
-17: Age IS L_1 AND Year IS L_0 AND Positive IS L_1: negative with Rule Weight: 0.29746835443037994
+17: Age IS L_1 AND Year IS L_0 AND Positive IS L_1: negative with Rule Weight: 0.2975
 
 
 @Number of granularity rules: 15
 
 In negative zone area : 50 , has rules : 
-1: Age IS L_1 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 0.8450704225352116
+1: Age IS L_1 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 0.8451
 In negative zone area : 50 , has rules : 
-2: Age IS L_2 AND Year IS L_0 AND Positive IS L_0: negative with Rule Weight: 0.27520759193357053
+2: Age IS L_2 AND Year IS L_0 AND Positive IS L_0: negative with Rule Weight: 0.2752
 In negative zone area : 50 , has rules : 
-3: Age IS L_1 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 0.583710407239819
+3: Age IS L_1 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 0.5837
 In negative zone area : 50 , has rules : 
 4: Age IS L_0 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 1.0
 In negative zone area : 50 , has rules : 
-5: Age IS L_1 AND Year IS L_0 AND Positive IS L_0: negative with Rule Weight: 0.6546863988724452
+5: Age IS L_1 AND Year IS L_0 AND Positive IS L_0: negative with Rule Weight: 0.6547
 In negative zone area : 50 , has rules : 
-6: Age IS L_1 AND Year IS L_2 AND Positive IS L_1: negative with Rule Weight: 0.48547717842323646
+6: Age IS L_1 AND Year IS L_2 AND Positive IS L_1: negative with Rule Weight: 0.4855
 In negative zone area : 50 , has rules : 
-7: Age IS L_1 AND Year IS L_1 AND Positive IS L_2: positive with Rule Weight: 0.8958333333333334
+7: Age IS L_1 AND Year IS L_1 AND Positive IS L_2: positive with Rule Weight: 0.8958
 In negative zone area : 50 , has rules : 
-8: Age IS L_0 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 0.32573289902280134
+8: Age IS L_0 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 0.3257
 In negative zone area : 50 , has rules : 
-9: Age IS L_0 AND Year IS L_0 AND Positive IS L_1: positive with Rule Weight: 0.36912751677852346
+9: Age IS L_0 AND Year IS L_0 AND Positive IS L_1: positive with Rule Weight: 0.3691
 In negative zone area : 50 , has rules : 
 10: Age IS L_2 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 1.0
 In negative zone area : 50 , has rules : 
-11: Age IS L_0 AND Year IS L_0 AND Positive IS L_0: negative with Rule Weight: 0.4034620505992015
+11: Age IS L_0 AND Year IS L_0 AND Positive IS L_0: negative with Rule Weight: 0.4035
 In negative zone area : 50 , has rules : 
-12: Age IS L_2 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 0.4151329243353784
+12: Age IS L_2 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 0.4151
 In negative zone area : 50 , has rules : 
-13: Age IS L_0 AND Year IS L_2 AND Positive IS L_1: negative with Rule Weight: 0.6910569105691058
+13: Age IS L_0 AND Year IS L_2 AND Positive IS L_1: negative with Rule Weight: 0.6911
 In negative zone area : 50 , has rules : 
 14: Age IS L_0 AND Year IS L_0 AND Positive IS L_2: positive with Rule Weight: 1.0
 In negative zone area : 50 , has rules : 
@@ -169,7 +169,7 @@ In negative zone area : 50 , has rules :
 @Number of granularity rules: 15
 
 In negative zone area : 28 , has rules : 
-1: Age IS L_0 AND Year IS L_1 AND Positive IS L_1: negative with Rule Weight: 0.8604651162790697
+1: Age IS L_0 AND Year IS L_1 AND Positive IS L_1: negative with Rule Weight: 0.8605
 In negative zone area : 28 , has rules : 
 2: Age IS L_1 AND Year IS L_0 AND Positive IS L_0: negative with Rule Weight: 1.0
 In negative zone area : 28 , has rules : 
@@ -179,21 +179,21 @@ In negative zone area : 28 , has rules :
 In negative zone area : 28 , has rules : 
 5: Age IS L_1 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 0.6
 In negative zone area : 28 , has rules : 
-6: Age IS L_1 AND Year IS L_2 AND Positive IS L_1: negative with Rule Weight: 0.23809523809523808
+6: Age IS L_1 AND Year IS L_2 AND Positive IS L_1: negative with Rule Weight: 0.2381
 In negative zone area : 28 , has rules : 
-7: Age IS L_1 AND Year IS L_0 AND Positive IS L_1: negative with Rule Weight: 0.9076923076923077
+7: Age IS L_1 AND Year IS L_0 AND Positive IS L_1: negative with Rule Weight: 0.9077
 In negative zone area : 28 , has rules : 
 8: Age IS L_0 AND Year IS L_0 AND Positive IS L_2: positive with Rule Weight: 1.0
 In negative zone area : 28 , has rules : 
-9: Age IS L_0 AND Year IS L_0 AND Positive IS L_0: negative with Rule Weight: 0.5764705882352941
+9: Age IS L_0 AND Year IS L_0 AND Positive IS L_0: negative with Rule Weight: 0.5765
 In negative zone area : 28 , has rules : 
-10: Age IS L_2 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 0.8235294117647058
+10: Age IS L_2 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 0.8235
 In negative zone area : 28 , has rules : 
-11: Age IS L_1 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 0.8297872340425533
+11: Age IS L_1 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 0.8298
 In negative zone area : 28 , has rules : 
 12: Age IS L_1 AND Year IS L_1 AND Positive IS L_2: positive with Rule Weight: 1.0
 In negative zone area : 28 , has rules : 
-13: Age IS L_0 AND Year IS L_2 AND Positive IS L_1: positive with Rule Weight: 0.6842105263157895
+13: Age IS L_0 AND Year IS L_2 AND Positive IS L_1: positive with Rule Weight: 0.6842
 In negative zone area : 28 , has rules : 
 14: Age IS L_1 AND Year IS L_2 AND Positive IS L_2: negative with Rule Weight: 1.0
 In negative zone area : 28 , has rules : 
@@ -249,25 +249,25 @@ In negative zone area : 4 , has rules :
 @Number of granularity rules: 10
 
 In negative zone area : 14 , has rules : 
-1: Age IS L_1 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 0.4647577092511013
+1: Age IS L_1 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 0.4648
 In negative zone area : 14 , has rules : 
-2: Age IS L_2 AND Year IS L_0 AND Positive IS L_1: negative with Rule Weight: 0.38872043662825956
+2: Age IS L_2 AND Year IS L_0 AND Positive IS L_1: negative with Rule Weight: 0.3887
 In negative zone area : 14 , has rules : 
 3: Age IS L_0 AND Year IS L_2 AND Positive IS L_1: positive with Rule Weight: 1.0
 In negative zone area : 14 , has rules : 
-4: Age IS L_1 AND Year IS L_2 AND Positive IS L_1: positive with Rule Weight: 0.2208695652173915
+4: Age IS L_1 AND Year IS L_2 AND Positive IS L_1: positive with Rule Weight: 0.2209
 In negative zone area : 14 , has rules : 
-5: Age IS L_1 AND Year IS L_0 AND Positive IS L_0: positive with Rule Weight: 0.6518987341772153
+5: Age IS L_1 AND Year IS L_0 AND Positive IS L_0: positive with Rule Weight: 0.6519
 In negative zone area : 14 , has rules : 
-6: Age IS L_1 AND Year IS L_0 AND Positive IS L_2: positive with Rule Weight: 0.5983086680761099
+6: Age IS L_1 AND Year IS L_0 AND Positive IS L_2: positive with Rule Weight: 0.5983
 In negative zone area : 14 , has rules : 
-7: Age IS L_2 AND Year IS L_2 AND Positive IS L_1: negative with Rule Weight: 0.3580599144079886
+7: Age IS L_2 AND Year IS L_2 AND Positive IS L_1: negative with Rule Weight: 0.3581
 In negative zone area : 14 , has rules : 
-8: Age IS L_0 AND Year IS L_1 AND Positive IS L_1: positive with Rule Weight: 0.9697428139183054
+8: Age IS L_0 AND Year IS L_1 AND Positive IS L_1: positive with Rule Weight: 0.9697
 In negative zone area : 14 , has rules : 
-9: Age IS L_1 AND Year IS L_1 AND Positive IS L_1: positive with Rule Weight: 0.5294117647058824
+9: Age IS L_1 AND Year IS L_1 AND Positive IS L_1: positive with Rule Weight: 0.5294
 In negative zone area : 14 , has rules : 
-10: Age IS L_0 AND Year IS L_1 AND Positive IS L_0: positive with Rule Weight: 0.9402173913043479
+10: Age IS L_0 AND Year IS L_1 AND Positive IS L_0: positive with Rule Weight: 0.9402
 
 
 @Number of granularity rules: 4
@@ -339,7 +339,7 @@ In negative zone area : 1 , has rules :
 @Number of pruned granularity rules: 10
 
 In negative zone area : 25 , has rules : 
-1: Age IS L_1 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 0.5999999999999998
+1: Age IS L_1 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 0.6
 In negative zone area : 25 , has rules : 
 2: Age IS L_1 AND Year IS L_1 AND Positive IS L_1: negative with Rule Weight: 1.0
 In negative zone area : 25 , has rules : 
@@ -365,25 +365,25 @@ In negative zone area : 25 , has rules :
 In negative zone area : 29 , has rules : 
 1: Age IS L_1 AND Year IS L_1 AND Positive IS L_1: negative with Rule Weight: 1.0
 In negative zone area : 29 , has rules : 
-2: Age IS L_2 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 0.5655146221040637
+2: Age IS L_2 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 0.5655
 In negative zone area : 29 , has rules : 
 3: Age IS L_1 AND Year IS L_1 AND Positive IS L_2: negative with Rule Weight: 1.0
 In negative zone area : 29 , has rules : 
 4: Age IS L_0 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 1.0
 In negative zone area : 29 , has rules : 
-5: Age IS L_1 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 0.43866535819430774
+5: Age IS L_1 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 0.4387
 In negative zone area : 29 , has rules : 
 6: Age IS L_2 AND Year IS L_2 AND Positive IS L_1: negative with Rule Weight: 1.0
 In negative zone area : 29 , has rules : 
-7: Age IS L_2 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 0.6405882352941176
+7: Age IS L_2 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 0.6406
 In negative zone area : 29 , has rules : 
 8: Age IS L_0 AND Year IS L_0 AND Positive IS L_0: negative with Rule Weight: 1.0
 In negative zone area : 29 , has rules : 
 9: Age IS L_0 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 1.0
 In negative zone area : 29 , has rules : 
-10: Age IS L_1 AND Year IS L_2 AND Positive IS L_1: positive with Rule Weight: 0.649484536082474
+10: Age IS L_1 AND Year IS L_2 AND Positive IS L_1: positive with Rule Weight: 0.6495
 In negative zone area : 29 , has rules : 
-11: Age IS L_1 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 0.8882921589688503
+11: Age IS L_1 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 0.8883
 In negative zone area : 29 , has rules : 
 12: Age IS L_1 AND Year IS L_0 AND Positive IS L_2: negative with Rule Weight: 1.0
 In negative zone area : 29 , has rules : 
@@ -393,69 +393,69 @@ In negative zone area : 29 , has rules :
 @Number of pruned granularity rules: 17
 
 In negative zone area : 93 , has rules : 
-1: Age IS L_0 AND Year IS L_0 AND Positive IS L_0: negative with Rule Weight: 0.7985589452705812
+1: Age IS L_0 AND Year IS L_0 AND Positive IS L_0: negative with Rule Weight: 0.7986
 In negative zone area : 93 , has rules : 
-2: Age IS L_1 AND Year IS L_0 AND Positive IS L_0: negative with Rule Weight: 0.837697468080502
+2: Age IS L_1 AND Year IS L_0 AND Positive IS L_0: negative with Rule Weight: 0.8377
 In negative zone area : 93 , has rules : 
-3: Age IS L_1 AND Year IS L_1 AND Positive IS L_1: negative with Rule Weight: 0.5214564369310793
+3: Age IS L_1 AND Year IS L_1 AND Positive IS L_1: negative with Rule Weight: 0.5215
 In negative zone area : 93 , has rules : 
-4: Age IS L_2 AND Year IS L_0 AND Positive IS L_0: negative with Rule Weight: 0.625208526413346
+4: Age IS L_2 AND Year IS L_0 AND Positive IS L_0: negative with Rule Weight: 0.6252
 In negative zone area : 93 , has rules : 
-5: Age IS L_0 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 0.5263989883022452
+5: Age IS L_0 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 0.5264
 In negative zone area : 93 , has rules : 
 6: Age IS L_0 AND Year IS L_1 AND Positive IS L_2: positive with Rule Weight: 1.0
 In negative zone area : 93 , has rules : 
-7: Age IS L_1 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 0.5288027608176263
+7: Age IS L_1 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 0.5288
 In negative zone area : 93 , has rules : 
-8: Age IS L_2 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 0.8552706552706548
+8: Age IS L_2 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 0.8553
 In negative zone area : 93 , has rules : 
-9: Age IS L_2 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 0.6333774834437084
+9: Age IS L_2 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 0.6334
 In negative zone area : 93 , has rules : 
-10: Age IS L_1 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 0.6273401624867538
+10: Age IS L_1 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 0.6273
 In negative zone area : 93 , has rules : 
-11: Age IS L_0 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 0.3944371441086292
+11: Age IS L_0 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 0.3944
 In negative zone area : 93 , has rules : 
-12: Age IS L_0 AND Year IS L_2 AND Positive IS L_2: negative with Rule Weight: 0.49713467048710597
+12: Age IS L_0 AND Year IS L_2 AND Positive IS L_2: negative with Rule Weight: 0.4971
 In negative zone area : 93 , has rules : 
-13: Age IS L_0 AND Year IS L_0 AND Positive IS L_1: negative with Rule Weight: 0.5416666666666664
+13: Age IS L_0 AND Year IS L_0 AND Positive IS L_1: negative with Rule Weight: 0.5417
 In negative zone area : 93 , has rules : 
-14: Age IS L_0 AND Year IS L_2 AND Positive IS L_1: positive with Rule Weight: 0.286527514231499
+14: Age IS L_0 AND Year IS L_2 AND Positive IS L_1: positive with Rule Weight: 0.2865
 In negative zone area : 93 , has rules : 
-15: Age IS L_1 AND Year IS L_2 AND Positive IS L_2: positive with Rule Weight: 0.2557575757575754
+15: Age IS L_1 AND Year IS L_2 AND Positive IS L_2: positive with Rule Weight: 0.2558
 In negative zone area : 93 , has rules : 
 16: Age IS L_2 AND Year IS L_0 AND Positive IS L_2: positive with Rule Weight: 1.0
 In negative zone area : 93 , has rules : 
-17: Age IS L_1 AND Year IS L_0 AND Positive IS L_1: negative with Rule Weight: 0.29746835443037994
+17: Age IS L_1 AND Year IS L_0 AND Positive IS L_1: negative with Rule Weight: 0.2975
 
 
 @Number of pruned granularity rules: 15
 
 In negative zone area : 50 , has rules : 
-1: Age IS L_1 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 0.8450704225352116
+1: Age IS L_1 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 0.8451
 In negative zone area : 50 , has rules : 
-2: Age IS L_2 AND Year IS L_0 AND Positive IS L_0: negative with Rule Weight: 0.27520759193357053
+2: Age IS L_2 AND Year IS L_0 AND Positive IS L_0: negative with Rule Weight: 0.2752
 In negative zone area : 50 , has rules : 
-3: Age IS L_1 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 0.583710407239819
+3: Age IS L_1 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 0.5837
 In negative zone area : 50 , has rules : 
 4: Age IS L_0 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 1.0
 In negative zone area : 50 , has rules : 
-5: Age IS L_1 AND Year IS L_0 AND Positive IS L_0: negative with Rule Weight: 0.6546863988724452
+5: Age IS L_1 AND Year IS L_0 AND Positive IS L_0: negative with Rule Weight: 0.6547
 In negative zone area : 50 , has rules : 
-6: Age IS L_1 AND Year IS L_2 AND Positive IS L_1: negative with Rule Weight: 0.48547717842323646
+6: Age IS L_1 AND Year IS L_2 AND Positive IS L_1: negative with Rule Weight: 0.4855
 In negative zone area : 50 , has rules : 
-7: Age IS L_1 AND Year IS L_1 AND Positive IS L_2: positive with Rule Weight: 0.8958333333333334
+7: Age IS L_1 AND Year IS L_1 AND Positive IS L_2: positive with Rule Weight: 0.8958
 In negative zone area : 50 , has rules : 
-8: Age IS L_0 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 0.32573289902280134
+8: Age IS L_0 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 0.3257
 In negative zone area : 50 , has rules : 
-9: Age IS L_0 AND Year IS L_0 AND Positive IS L_1: positive with Rule Weight: 0.36912751677852346
+9: Age IS L_0 AND Year IS L_0 AND Positive IS L_1: positive with Rule Weight: 0.3691
 In negative zone area : 50 , has rules : 
 10: Age IS L_2 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 1.0
 In negative zone area : 50 , has rules : 
-11: Age IS L_0 AND Year IS L_0 AND Positive IS L_0: negative with Rule Weight: 0.4034620505992015
+11: Age IS L_0 AND Year IS L_0 AND Positive IS L_0: negative with Rule Weight: 0.4035
 In negative zone area : 50 , has rules : 
-12: Age IS L_2 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 0.4151329243353784
+12: Age IS L_2 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 0.4151
 In negative zone area : 50 , has rules : 
-13: Age IS L_0 AND Year IS L_2 AND Positive IS L_1: negative with Rule Weight: 0.6910569105691058
+13: Age IS L_0 AND Year IS L_2 AND Positive IS L_1: negative with Rule Weight: 0.6911
 In negative zone area : 50 , has rules : 
 14: Age IS L_0 AND Year IS L_0 AND Positive IS L_2: positive with Rule Weight: 1.0
 In negative zone area : 50 , has rules : 
@@ -465,7 +465,7 @@ In negative zone area : 50 , has rules :
 @Number of pruned granularity rules: 15
 
 In negative zone area : 28 , has rules : 
-1: Age IS L_0 AND Year IS L_1 AND Positive IS L_1: negative with Rule Weight: 0.8604651162790697
+1: Age IS L_0 AND Year IS L_1 AND Positive IS L_1: negative with Rule Weight: 0.8605
 In negative zone area : 28 , has rules : 
 2: Age IS L_1 AND Year IS L_0 AND Positive IS L_0: negative with Rule Weight: 1.0
 In negative zone area : 28 , has rules : 
@@ -475,21 +475,21 @@ In negative zone area : 28 , has rules :
 In negative zone area : 28 , has rules : 
 5: Age IS L_1 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 0.6
 In negative zone area : 28 , has rules : 
-6: Age IS L_1 AND Year IS L_2 AND Positive IS L_1: negative with Rule Weight: 0.23809523809523808
+6: Age IS L_1 AND Year IS L_2 AND Positive IS L_1: negative with Rule Weight: 0.2381
 In negative zone area : 28 , has rules : 
-7: Age IS L_1 AND Year IS L_0 AND Positive IS L_1: negative with Rule Weight: 0.9076923076923077
+7: Age IS L_1 AND Year IS L_0 AND Positive IS L_1: negative with Rule Weight: 0.9077
 In negative zone area : 28 , has rules : 
 8: Age IS L_0 AND Year IS L_0 AND Positive IS L_2: positive with Rule Weight: 1.0
 In negative zone area : 28 , has rules : 
-9: Age IS L_0 AND Year IS L_0 AND Positive IS L_0: negative with Rule Weight: 0.5764705882352941
+9: Age IS L_0 AND Year IS L_0 AND Positive IS L_0: negative with Rule Weight: 0.5765
 In negative zone area : 28 , has rules : 
-10: Age IS L_2 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 0.8235294117647058
+10: Age IS L_2 AND Year IS L_1 AND Positive IS L_0: negative with Rule Weight: 0.8235
 In negative zone area : 28 , has rules : 
-11: Age IS L_1 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 0.8297872340425533
+11: Age IS L_1 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 0.8298
 In negative zone area : 28 , has rules : 
 12: Age IS L_1 AND Year IS L_1 AND Positive IS L_2: positive with Rule Weight: 1.0
 In negative zone area : 28 , has rules : 
-13: Age IS L_0 AND Year IS L_2 AND Positive IS L_1: positive with Rule Weight: 0.6842105263157895
+13: Age IS L_0 AND Year IS L_2 AND Positive IS L_1: positive with Rule Weight: 0.6842
 In negative zone area : 28 , has rules : 
 14: Age IS L_1 AND Year IS L_2 AND Positive IS L_2: negative with Rule Weight: 1.0
 In negative zone area : 28 , has rules : 
@@ -545,25 +545,25 @@ In negative zone area : 4 , has rules :
 @Number of pruned granularity rules: 10
 
 In negative zone area : 14 , has rules : 
-1: Age IS L_1 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 0.4647577092511013
+1: Age IS L_1 AND Year IS L_2 AND Positive IS L_0: negative with Rule Weight: 0.4648
 In negative zone area : 14 , has rules : 
-2: Age IS L_2 AND Year IS L_0 AND Positive IS L_1: negative with Rule Weight: 0.38872043662825956
+2: Age IS L_2 AND Year IS L_0 AND Positive IS L_1: negative with Rule Weight: 0.3887
 In negative zone area : 14 , has rules : 
 3: Age IS L_0 AND Year IS L_2 AND Positive IS L_1: positive with Rule Weight: 1.0
 In negative zone area : 14 , has rules : 
-4: Age IS L_1 AND Year IS L_2 AND Positive IS L_1: positive with Rule Weight: 0.2208695652173915
+4: Age IS L_1 AND Year IS L_2 AND Positive IS L_1: positive with Rule Weight: 0.2209
 In negative zone area : 14 , has rules : 
-5: Age IS L_1 AND Year IS L_0 AND Positive IS L_0: positive with Rule Weight: 0.6518987341772153
+5: Age IS L_1 AND Year IS L_0 AND Positive IS L_0: positive with Rule Weight: 0.6519
 In negative zone area : 14 , has rules : 
-6: Age IS L_1 AND Year IS L_0 AND Positive IS L_2: positive with Rule Weight: 0.5983086680761099
+6: Age IS L_1 AND Year IS L_0 AND Positive IS L_2: positive with Rule Weight: 0.5983
 In negative zone area : 14 , has rules : 
-7: Age IS L_2 AND Year IS L_2 AND Positive IS L_1: negative with Rule Weight: 0.3580599144079886
+7: Age IS L_2 AND Year IS L_2 AND Positive IS L_1: negative with Rule Weight: 0.3581
 In negative zone area : 14 , has rules : 
-8: Age IS L_0 AND Year IS L_1 AND Positive IS L_1: positive with Rule Weight: 0.9697428139183054
+8: Age IS L_0 AND Year IS L_1 AND Positive IS L_1: positive with Rule Weight: 0.9697
 In negative zone area : 14 , has rules : 
-9: Age IS L_1 AND Year IS L_1 AND Positive IS L_1: positive with Rule Weight: 0.5294117647058824
+9: Age IS L_1 AND Year IS L_1 AND Positive IS L_1: positive with Rule Weight: 0.5294
 In negative zone area : 14 , has rules : 
-10: Age IS L_0 AND Year IS L_1 AND Positive IS L_0: positive with Rule Weight: 0.9402173913043479
+10: Age IS L_0 AND Year IS L_1 AND Positive IS L_0: positive with Rule Weight: 0.9402
 
 
 @Number of pruned granularity rules: 4

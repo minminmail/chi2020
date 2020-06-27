@@ -166,7 +166,7 @@ class Rule:
             total = total + comp
 
         print("classes_sum[self.class_value]  = " + str(classes_sum[self.class_value]) + "total" + str(total))
-        self.weight = classes_sum[self.class_value] / total
+        self.weight = round((classes_sum[self.class_value] / total), 4)
 
     # * Penalized Certainty Factor weight II (by Ishibuchi)
     # * @param train myDataset training dataset
@@ -185,7 +185,7 @@ class Rule:
             total = total + comp
 
         sum_value = (total - classes_sum[self.class_value]) / (train.getnClasses() - 1.0)
-        self.weight = (classes_sum[self.class_value] - sum_value) / total
+        self.weight = round(((classes_sum[self.class_value] - sum_value) / total), 4)
 
     # * Penalized Certainty Factor weight IV (by Ishibuchi)
     # * @param train myDataset training dataset
@@ -227,7 +227,7 @@ class Rule:
         # print("self.clas =" + str(self.class_value) + "classes_sum[self.clas] :" + str(classes_sum[self.class_value]))
         # print(" The zero comp number in this loop is :" + str(zeroCompNumber))
         sum_value = total - classes_sum[self.class_value]
-        self.weight = (classes_sum[self.class_value] - sum_value) / total
+        self.weight = round(((classes_sum[self.class_value] - sum_value) / total), 4)
         print("self.weight is " + str(self.weight))
 
     # * This function detects if one rule is already included in the Rule Set
@@ -278,10 +278,10 @@ class Rule:
         if all_number_of_the_class != 0:
             # print("support_rule_number :"+str(support_rule_number))
             # print("all_number_of_the_class :" + str(all_number_of_the_class))
-            self.confident_value = supp_xy / all_number_of_the_class
+            self.confident_value = round((supp_xy / all_number_of_the_class), 4)
             #print("self.confident_value in the rule:" + str(self.confident_value))
         if supp_x != 0:
-            self.zone_confident = supp_xy / supp_x
+            self.zone_confident = round((supp_xy / supp_x), 4)
 
 
 
