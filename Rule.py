@@ -50,6 +50,8 @@ class Rule:
     granularity_sub_zone = None
     # added at 2020/06/25 to check positive rule confident
     confident_value = None
+    # added at 2020/06/30 to check positive rule support
+    support_value = None
     # In this fuzzy zone, the confident is supp(xUY)/supp(x)
     zone_confident = None
 
@@ -251,14 +253,15 @@ class Rule:
         else:
             return False
 
-    def calculate_confident(self, data_row_array):
+    def calculate_confident_support(self, data_row_array):
         # how many instances in the zone
         supp_x= 0
         # instances in the zone with the same expected class value
         supp_xy=0
         self.confident_value = 0
         all_number_of_the_class = 0
-        for i in range(0, len(data_row_array)):
+        total_number = len(data_row_array)
+        for i in range(0, total_number):
             self.data_row_here = data_row_array[i]
             #  print("self.data_row_here.class_value  :" + str(self.data_row_here.class_value))
             #  print("self.class_value  :" + str(self.class_value))
@@ -278,6 +281,7 @@ class Rule:
         if all_number_of_the_class != 0:
             # print("support_rule_number :"+str(support_rule_number))
             # print("all_number_of_the_class :" + str(all_number_of_the_class))
+            self.support_value = round((supp_x/total_number), 4)
             self.confident_value = round((supp_xy / all_number_of_the_class), 4)
             #print("self.confident_value in the rule:" + str(self.confident_value))
         if supp_x != 0:

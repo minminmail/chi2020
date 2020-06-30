@@ -55,8 +55,8 @@ class Fuzzy_Chi:
     ruleBase = None
     granularity_rule_Base_array = []
     negative_confident_standard = 0
-    zone_confident_standard = 0.2
-    granularity_confident_value = 0.2
+    zone_confident_standard = 0
+    granularity_confident_value = 0
     # added by rui
     negative_rule_number = None
     granularity_data_row_array = []
@@ -182,7 +182,7 @@ class Fuzzy_Chi:
             print("Data Base:\n" + self.dataBase.printString())
             self.ruleBase.generation(self.train_myDataSet)
             # add calculate confident method for later rule selection 2020/06/25
-            self.ruleBase.calculate_confident_rulebase(self.train_myDataSet)
+            self.ruleBase.calculate_confident_support_rulebase(self.train_myDataSet)
 
             # added by rui for negative rules
             self.ruleBase.generate_negative_rules(self.train_myDataSet, self.negative_confident_standard, self.zone_confident_standard)

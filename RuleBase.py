@@ -389,7 +389,7 @@ class RuleBase:
                 if positive_rule_class_value != class_type:  # need to get another class value for negative rule
 
                     rule_negative.setClass(class_type)  # change the class type in the rule
-                    rule_negative.calculate_confident(self.data_row_array)
+                    rule_negative.calculate_confident_support(self.data_row_array)
                     print("Negative rule's  confident value is :"+ str(rule_negative.confident_value))
 
                     if rule_negative.confident_value > confident_value_pass and rule_negative.zone_confident > zone_confident_pass:
@@ -417,7 +417,7 @@ class RuleBase:
                 class_value_array.append(integer_array[i])
         return class_value_array
 
-    def calculate_confident_rulebase(self,train):
+    def calculate_confident_support_rulebase(self,train):
         class_value_arr = self.get_class_value_array(train)
         str_print = "Totally there are: " + str(len(self.ruleBase))+ " rules"
         print(str_print)
@@ -425,8 +425,9 @@ class RuleBase:
 
         for each_rule in self.ruleBase:
 
-            each_rule.calculate_confident(self.data_row_array)
+            each_rule.calculate_confident_support(self.data_row_array)
             print(str(index_number) + " -- each_rule.weight :" + str(each_rule.weight)+",zone_confident :" + str(each_rule.zone_confident)+",calculate_confident :"+str(each_rule.confident_value))
+            print(" -- each_rule.support_value :" + str(each_rule.support_value) )
             index_number = index_number + 1
 
 

@@ -24,6 +24,46 @@ granularity rule of negative zone area 0
 @Number of Labels per variable: 3
 
  Age:
+       L_1: (28.0,33.0,38.0)
+       L_2: (33.0,38.0,43.0)
+       L_3: (38.0,43.0,48.0)
+
+ Year:
+       L_1: (57.0,58.0,59.0)
+       L_2: (58.0,59.0,60.0)
+       L_3: (59.0,60.0,61.0)
+
+ Positive:
+       L_1: (-5.0,0.0,5.0)
+       L_2: (0.0,5.0,10.0)
+       L_3: (5.0,10.0,15.0)
+
+granularity rule of negative zone area 1
+
+@Using Triangular Membership Functions as antecedent fuzzy sets
+@Number of Labels per variable: 3
+
+ Age:
+       L_1: (23.5,30.0,36.5)
+       L_2: (30.0,36.5,43.0)
+       L_3: (36.5,43.0,49.5)
+
+ Year:
+       L_1: (58.5,61.0,63.5)
+       L_2: (61.0,63.5,66.0)
+       L_3: (63.5,66.0,68.5)
+
+ Positive:
+       L_1: (-6.5,0.0,6.5)
+       L_2: (0.0,6.5,13.0)
+       L_3: (6.5,13.0,19.5)
+
+granularity rule of negative zone area 2
+
+@Using Triangular Membership Functions as antecedent fuzzy sets
+@Number of Labels per variable: 3
+
+ Age:
        L_1: (31.5,44.0,56.5)
        L_2: (44.0,56.5,69.0)
        L_3: (56.5,69.0,81.5)
@@ -38,7 +78,7 @@ granularity rule of negative zone area 0
        L_2: (0.0,6.5,13.0)
        L_3: (6.5,13.0,19.5)
 
-granularity rule of negative zone area 1
+granularity rule of negative zone area 3
 
 @Using Triangular Membership Functions as antecedent fuzzy sets
 @Number of Labels per variable: 3
@@ -58,7 +98,7 @@ granularity rule of negative zone area 1
        L_2: (0.0,6.5,13.0)
        L_3: (6.5,13.0,19.5)
 
-granularity rule of negative zone area 2
+granularity rule of negative zone area 4
 
 @Using Triangular Membership Functions as antecedent fuzzy sets
 @Number of Labels per variable: 3
@@ -78,7 +118,7 @@ granularity rule of negative zone area 2
        L_2: (0.0,4.0,8.0)
        L_3: (4.0,8.0,12.0)
 
-granularity rule of negative zone area 3
+granularity rule of negative zone area 5
 
 @Using Triangular Membership Functions as antecedent fuzzy sets
 @Number of Labels per variable: 3
@@ -98,7 +138,7 @@ granularity rule of negative zone area 3
        L_2: (15.0,18.5,22.0)
        L_3: (18.5,22.0,25.5)
 
-granularity rule of negative zone area 4
+granularity rule of negative zone area 6
 
 @Using Triangular Membership Functions as antecedent fuzzy sets
 @Number of Labels per variable: 3
@@ -118,7 +158,7 @@ granularity rule of negative zone area 4
        L_2: (0.0,1.5,3.0)
        L_3: (1.5,3.0,4.5)
 
-granularity rule of negative zone area 5
+granularity rule of negative zone area 7
 
 @Using Triangular Membership Functions as antecedent fuzzy sets
 @Number of Labels per variable: 3
@@ -138,7 +178,7 @@ granularity rule of negative zone area 5
        L_2: (14.0,24.5,35.0)
        L_3: (24.5,35.0,45.5)
 
-granularity rule of negative zone area 6
+granularity rule of negative zone area 8
 
 @Using Triangular Membership Functions as antecedent fuzzy sets
 @Number of Labels per variable: 3
@@ -158,7 +198,7 @@ granularity rule of negative zone area 6
        L_2: (0.0,4.0,8.0)
        L_3: (4.0,8.0,12.0)
 
-granularity rule of negative zone area 7
+granularity rule of negative zone area 9
 
 @Using Triangular Membership Functions as antecedent fuzzy sets
 @Number of Labels per variable: 3
@@ -178,7 +218,7 @@ granularity rule of negative zone area 7
        L_2: (0.0,4.0,8.0)
        L_3: (4.0,8.0,12.0)
 
-granularity rule of negative zone area 8
+granularity rule of negative zone area 10
 
 @Using Triangular Membership Functions as antecedent fuzzy sets
 @Number of Labels per variable: 3
@@ -198,7 +238,7 @@ granularity rule of negative zone area 8
        L_2: (15.0,22.5,30.0)
        L_3: (22.5,30.0,37.5)
 
-granularity rule of negative zone area 9
+granularity rule of negative zone area 11
 
 @Using Triangular Membership Functions as antecedent fuzzy sets
 @Number of Labels per variable: 3
