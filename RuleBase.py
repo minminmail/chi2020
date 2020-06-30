@@ -339,14 +339,6 @@ class RuleBase:
             if produc > max_value:
                 max_value = produc
                 class_value = rule.class_value
-        if produc == 0:
-            for i in range(0, len(self.ruleBase)):
-                rule = self.ruleBase[i]
-                produc = rule.compatibility(example)
-                produc *= rule.weight
-                if produc > max_value:
-                    max_value = produc
-                    class_value = rule.class_value
 
         return class_value
 
